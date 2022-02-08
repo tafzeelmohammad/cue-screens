@@ -68744,7 +68744,7 @@ function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && 
 function App() {
   return /*#__PURE__*/_react.default.createElement(_react.Fragment, null, /*#__PURE__*/_react.default.createElement(_reactRouterDom.BrowserRouter, null, /*#__PURE__*/_react.default.createElement(_reactRouterDom.Switch, null, /*#__PURE__*/_react.default.createElement(_reactRouterDom.Route, {
     path: "/:path(|home)"
-  }, /*#__PURE__*/_react.default.createElement(_Index.default, null)), /*#__PURE__*/_react.default.createElement(_reactRouterDom.Route, {
+  }, /*#__PURE__*/_react.default.createElement(_SignIn.default, null)), /*#__PURE__*/_react.default.createElement(_reactRouterDom.Route, {
     path: "/signin"
   }, /*#__PURE__*/_react.default.createElement(_SignIn.default, null)), /*#__PURE__*/_react.default.createElement(_reactRouterDom.Route, {
     path: "/validate-otp",
