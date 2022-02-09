@@ -15,7 +15,7 @@ function App() {
       <Fragment>
         <Router>
           <Switch>
-            <Route path="/:path(|home)"><Community /></Route>
+            <Route path="/:path(|home)"><Artists /></Route>
             <Route path="/signin"><SignIn /></Route>
             <Route path="/validate-otp" component={ Otp } />
             <Route path="/fill-details" component={ Details } />
